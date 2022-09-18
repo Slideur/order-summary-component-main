@@ -109,5 +109,43 @@ body {
     border: none;
 }
 
+@media all and (max-width: 375px) {
+    .container {
+        width: 355px;
+        margin: auto;
+    }
+
+    .container__elements--heading {
+        font-size: 24px;
+    }
+
+    .container__elements--text {
+        width: 245px;
+    }
+
+    .dancer {
+        width: 355px;
+    }
+
+    .price {
+        padding-right: 24px;
+        padding-left: 8px;
+    }
+
+    .price--annual {
+        width: 108px;
+        padding: 0px;
+        
+    }
+
+    .price--link {
+        padding-right: 32px;
+    }
+
+    img {
+        margin-bottom: 8px;
+    }
+}
+    
 
 
