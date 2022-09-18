@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fredoka:wght@500;600&family=Inter:wght@400;700;800&family=Lexend+Deca&family=Nabla&family=Raleway:wght@300;400;500;600;700;800;900&family=Red+Hat+Display:wght@500;700;900&family=Roboto+Mono:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url("images/pattern-background-desktop.svg") fixed repeat-x hsl(225, 100%, 94%);
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin: auto;
+    margin-top: 104px;
+    background-color: white;
+    font-family: "Red Hat Display", sans-serif;
+    border-radius: 16px;
+    /* border: 3px solid green; */
+}
+
+.dancer {
+    border-radius: 16px 16px 0 0;
+}
+
+.container__elements {
+    text-align: center;
+    margin-left: 32px;
+    margin-right: 32px;;
+}
+
+.container__elements--heading {
+    font-size: 32px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.container__elements--text {
+    width: 350px; 
+    margin: auto;
+    margin-bottom: 32px;
+    color: hsl(224, 23%, 55%);
+    line-height: 1.5;
+    /* border: 2px solid green; */
+}
+
+.container__elements--ann {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 32px;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 96px;
+}
+
+.price--annual {
+    margin: 0px;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    padding: 8px;
+}
+
+.price--year {
+    margin-top: 0px;
+    color: hsl(224, 23%, 55%);
+}
+
+.price--link {
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+    padding-bottom: 16px;
+    padding-right: 32px;
+}
+
+.container__elements--pro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 32px;
+    
+}
+
+.btn--pro {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 16px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 32px;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn--can {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 48px;
+    background-color: white;
+    color: hsl(224, 23%, 55%);
+    border: none;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0px;
+    
+    
+    
+} 
+
