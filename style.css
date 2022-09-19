@@ -6,7 +6,6 @@
 
 body {
     background: url("images/pattern-background-desktop.svg") fixed repeat-x hsl(225, 100%, 94%);
-    
 }
 
 .container {
@@ -21,9 +20,13 @@ body {
     /* border: 3px solid green; */
 }
 
+    /* IMAGE */
+
 .dancer {
     border-radius: 16px 16px 0 0;
 }
+
+    /*FIRST HALF OF THE CONTAINER : THE TOP ONE (HEADING AND TEXT)*/
 
 .container__elements {
     text-align: center;
@@ -53,6 +56,7 @@ body {
     padding-left: 32px;
 }
 
+    /* SECOND HALF OF THE CONTAINER : THE BOTTOM ONE (ANNUAL PLAN, LINK, PROCEED AND CANCEL)*/
 .price {
     display: flex;
     flex-direction: column;
@@ -108,6 +112,8 @@ body {
     color: hsl(224, 23%, 55%);
     border: none;
 }
+
+    /* MOBILE VERSION */
 
 @media all and (max-width: 375px) {
     .container {
